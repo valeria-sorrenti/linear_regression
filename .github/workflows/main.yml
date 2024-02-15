@@ -26,7 +26,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest tests.py
+          pytest test.py
 
       - name: Execute regression script
         run: |
